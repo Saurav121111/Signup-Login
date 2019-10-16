@@ -1,0 +1,30 @@
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 40px 0;
+  }
+  
+  .links{
+      float: right;
+  }
+  .one{
+      float: left;
+      margin-right: 100px;
+  }
+  .two{
+      text-align: center;
+      font-size: 30px;
+  }
+  
+  .signup {
+    float: right;
+    margin-right: 40px;
+    border: yellow;
+  }
+  
+  .login {
+    float: right;
+    margin-right: 80px;
+  }
+
+

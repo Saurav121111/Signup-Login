@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<header id="new" style="text-align: center;">
+	<div class='menu-container'>
+	<div class="one">LOGO</div>
+	<div class="two">About Pricing</div>
+	<div class="links">
+		<div class='login'><button><a href="login.html">Login</a></button></div>
+		<div class='signup'><button><a href="sign_up.html">Sign Up</a></button></div>
+		
+	</div>
+</div>
+	<p>MENU</p>
+</header>
+<body>
+	
+	<fieldset style="width: 20%; position: relative; margin-left: 40%; height:30%; margin-top: 2%;">
+		<form align="center" style="margin-top: 10%;">
+			<input type="text" placeholder="Name" id="name"><br><br>
+			<input type="email" placeholder="E-mail" id="email"><br><br>
+			<input type="password" placeholder="Password" id="pass"><br><br>
+			<button type="button" onclick="a()">Sign Up</button>
+		</form>
+	</fieldset>
+	
+	<script>
+		function a(){
+		var obj={
+		  x: document.getElementById("name").value,
+		  y: document.getElementById("email").value,
+		  z: document.getElementById("pass").value
+		};
+         alert("Name: "+obj.x+"\n"+"E-mail: "+obj.y+"\n"+"Password: "+obj.z);
+        }
+	</script>
+</body>
+</html>
